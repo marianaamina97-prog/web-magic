@@ -1,0 +1,40 @@
+.header{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.Timetable {
+     display: grid;
+     grid-template-columns: repeat(14, 1fr);
+     gap: 2px;
+     grid-auto-flow: row;
+     border: solid black 1px;
+}
+#wek{
+    grid-row: span 2;
+}
+#BRK{
+    grid-row: span 2;
+}
+#LCH{
+    grid-row: span 2;
+}
+.cell {
+     background-color: White;
+     padding: 10px;
+     text-align: center;
+     font-family: sans-serif;
+     font-size: 12px;
+     height:auto;
+     border: solid black 1px;
+     text-align: center;
+}
+#FTT{
+    grid-row: span 2;
+    font-size: 10px;
+    font-weight: bold;
+}
+#DEV{
+    grid-row: span 2; 
+}
